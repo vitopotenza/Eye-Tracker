@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgettoFinale", "ProgettoFinale\ProgettoFinale.csproj", "{3E9A87EB-3F23-4B75-B184-5A6002AC560C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{CD1D7192-B0E2-4618-BFC8-FE9146841E73}"
+	ProjectSection(SolutionItems) = preProject
+		ProgettoFinale\ExitViews.xaml = ProgettoFinale\ExitViews.xaml
+		ProgettoFinale\MainWindow.xaml = ProgettoFinale\MainWindow.xaml
+		ProgettoFinale\WebViews.xaml = ProgettoFinale\WebViews.xaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{B931AD40-4F38-48FD-84C2-D52D75A08B15}"
+	ProjectSection(SolutionItems) = preProject
+		ProgettoFinale\ExitViews.xaml.cs = ProgettoFinale\ExitViews.xaml.cs
+		ProgettoFinale\MainWindow.xaml.cs = ProgettoFinale\MainWindow.xaml.cs
+		ProgettoFinale\WebViews.xaml.cs = ProgettoFinale\WebViews.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{6CA1DA94-11AF-43AF-82DB-A602DECBC53C}"
+	ProjectSection(SolutionItems) = preProject
+		ProgettoFinale\KeyboardWriterModel.cs = ProgettoFinale\KeyboardWriterModel.cs
+		ProgettoFinale\TextToSpeechModel.cs = ProgettoFinale\TextToSpeechModel.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9A87EB-3F23-4B75-B184-5A6002AC560C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9A87EB-3F23-4B75-B184-5A6002AC560C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9A87EB-3F23-4B75-B184-5A6002AC560C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9A87EB-3F23-4B75-B184-5A6002AC560C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CB2DB16-6F7E-4B6E-829D-30F6741FBEA8}
+	EndGlobalSection
+EndGlobal
